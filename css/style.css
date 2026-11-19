@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F0F0;
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.page-wrapper {
+  overflow: hidden;
+  max-width: 402px;
+  margin: auto;
+  background: #F0F0F0;
+  box-shadow: 0px 0px 30px rgba(89, 86, 86, 0.25);
+  border-radius: 20px;
+}
+
+.header {
+  background: url('../img/header-bg.png') no-repeat center/cover;
+  border-radius: 0px 0px 90px 90px;
+
+  width: 402px;
+  height: 287px;
+}
+
+.user-avatar {
+  float: left;
+  object-fit: cover;
+  margin-top: 23px;
+  margin-left: 25px;
+}
+.user-description {
+  overflow: hidden;
+}
+
+.user-text-block1 {
+  margin-top: 28px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.user-text-block2 {
+  margin-top: -7px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #888888;
+}
+
+.content {
+  margin-left: 25px;
+  width: 351px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.goto-catalog, .goto-lesson {
+  position: relative;
+  width: 350px;
+  height: 74px;
+  margin-left: 25px;
+  margin-top: 6px;
+  background: #FFACAE;
+  border-radius: 5px;
+  padding-top: 9px;
+  padding-left: 15px;
+}
+
+.goto-lesson {
+  margin-top: 18px;
+}
+
+.text-goto-catalog1, .text-goto-catalog2, .text-goto-lesson1, .text-goto-lesson2 {
+  margin: 0 0 10px 0;
+}
+
+.text-goto-catalog1, .text-goto-lesson1 {
+  font-size: 17px;
+  color: #fff;
+}
+.text-goto-catalog2, .text-goto-lesson2 {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #fff;
+}
+
+.goto-catalog-arrow, .goto-lesson-arrow {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.content-image {
+  width: 350px;
+  height: 248px;
+  margin-left: 25px;
+  margin-top: 48px;
+  background: url('../img/content.png') no-repeat center/cover;
+  border-radius: 5px;
+}
