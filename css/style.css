@@ -100,3 +100,38 @@ body {
   background: url('../img/content.png') no-repeat center/cover;
   border-radius: 5px;
 }
+
+.card {
+  margin: 18px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: auto;
+  gap: 16px;
+}
+
+.button {
+  background-color:#000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 5px;
+  flex-shrink: 1;
+  width: 100%;
+}
+
+.button.facebook {
+  background-color: #3B5998;
+}
+
+.button.vk {
+  background-color: #48729E;
+}
+
+.button.instagram {
+  background-color: #E1306C;
+}
